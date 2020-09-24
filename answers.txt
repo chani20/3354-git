@@ -1,0 +1,13 @@
+a) 11
+
+b)Date:   Tue Jan 24 22:28:11 2017 -0600
+
+    Added ignore file
+
+c) "git log" is a display of all commits in the repo and their information. "git status" is a description of the current branch in comparison to the master and any changes that need to be committed; it just refers to the current working directory in the staging area.
+
+d)Untracked changes are changes to untracked files and git does not keep a discernable record of them. Unstaged changes exist in the working directory in the staging area but git hasn't recorded them into the version history yet. An unstaged change is viewed in "git status" under "changes not staged for commit:"
+
+e) "git reset" discards commits in a private branch or throws away uncommited changes. "git checkout" can switch between branches.
+
+f) You get a ![rejected] error citing an error that gives hints to the issue. This means that the working directory and git remote have diverged.
